@@ -1,5 +1,4 @@
-fn main() {
-    // check if argument is passed
+fn main(){
     if std::env::args().len() == 1 {
         println!("toki pona translator");
         println!("type 'q' or 'quit' to exit\n");
